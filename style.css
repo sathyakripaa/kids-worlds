@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+.section {
+    display:flex;
+    justify-content: space-evenly; 
+   
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{
+    height: 50px;
+    width: 100%;
+}
+nav>div{
+    padding: 0% 5%;
+}
+nav img{
+    height:30px;
+}
+#cart{
+    font-weight: bold;
+    display: inline-flex;
+}
+header{
+    height: 500px;
+    background-image: url("http://i1.faceprep.in/prograd-junior/kw-background.png");
+    background-size: 100% 100%;
+}
+.header-text{
+    color: white;
+    padding: 80px;
+}
+.header-text>h3{
+    font-size: 50px;
+}
+.header-text>h5{
+    font-size: 20px;
+}
+.sub{
+    margin: 3% 0;
+}
+.buy{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.button{
+    display: flex;
+   cursor: pointer;
+   background-color: rgb(23, 173, 243);
+   color:white;
+   border-radius: 3px;
+   padding: 5px;
+}
+.buy img{
+    width:20px ;
+}
+.main{
+    padding:4%;
+}
+footer{
+    background-image: url("http://i1.faceprep.in/prograd-junior/footer-bg.png");
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2%;
+}
+footer img{
+    height: 150px;
+    width:150px;
+    border-radius: 50%;
+}
+.books{
+    max-width: 200px;
+}
+.crafts,.games{
+    max-width: 300px;
+}
+#detail{
+    flex-direction: column;
+    text-align: right;
+    margin-top: 3%;
+}
+.buy p{
+    font-weight: bold;
+}
+.sub h2{
+    padding-left: 2%;
+}
+.section{
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 600px){
+    header{
+        height:200px;
+        font-size: 15px;
+        text-align: start;
+    }
+    #media h3{
+        font-size: 4vh;
+    }
+    #media h5{
+        font-size: 15px;
+    }
+    #media{
+        padding: 0 60% 5% 5%;
+    }
+    body{
+        text-align: center;
+    }
+    .main-container{
+        justify-content: center;
+    }
+}
+
+
